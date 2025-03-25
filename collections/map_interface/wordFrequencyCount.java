@@ -14,7 +14,7 @@ public class wordFrequencyCount {
             String[] words = line.toLowerCase().replaceAll("[^a-zA-Z0-9 ]", "").split("\\s+");
             for (String word : words) {
                 if (!word.isEmpty()) {
-                    wordCountMap.put(word, wordCountMap.getOrDefault(word, 0) + 1);
+                    wordCountMap.put(word, wordCountMap.getOrDefault(word,0) + 1);
                 }
             }
         }
