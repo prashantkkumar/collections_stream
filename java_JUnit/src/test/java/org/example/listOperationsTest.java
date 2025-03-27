@@ -22,7 +22,6 @@ class listOperationsTest {
         listOperations.removeElement(list, 5);
         assertFalse(list.contains(5));
     }
-
     @Test
     public void testGetSize() {
         List<Integer> list = new ArrayList<>();
