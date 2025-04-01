@@ -1,5 +1,5 @@
-package org.example;
-
+package java_JUnit.src.test.java.org.example;
+import  org.example.calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,19 +7,19 @@ import static org.junit.jupiter.api.Assertions.*;
 class calculatorTest {
     @Test
     public void testAdd() {
-        calculator Calculator = new calculator();
+        org.example.calculator Calculator = new org.example.calculator();
         assertEquals(5, Calculator.add(2, 3));
         assertEquals(-1, Calculator.add(-2, 1));
     }
     @Test
     public void testSubtract() {
-        calculator Calculator = new calculator();
+        org.example.calculator Calculator = new org.example.calculator();
         assertEquals(1, Calculator.subtract(3, 2));
         assertEquals(-3, Calculator.subtract(-2, 1));
     }
     @Test
     public void testMultiply() {
-        calculator Calculator = new calculator();
+        org.example.calculator Calculator = new calculator();
         assertEquals(6, Calculator.multiply(3, 2));
         assertEquals(0, Calculator.multiply(0, 1));
     }

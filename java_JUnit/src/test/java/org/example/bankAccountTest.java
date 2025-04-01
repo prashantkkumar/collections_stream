@@ -1,5 +1,6 @@
-package org.example;
+package java_JUnit.src.test.java.org.example;
 
+import java_JUnit.src.main.java.org.example.bankAccount;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

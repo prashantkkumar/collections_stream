@@ -1,6 +1,6 @@
-package org.example;
+package java_JUnit.src.main.java.org.example;
 
-import org.junit.Test;
+
 
 public class bankAccount {
     private double balance;
