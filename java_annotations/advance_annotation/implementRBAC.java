@@ -1,7 +1,6 @@
 package java_annotations.advance_annotation;
 
 import java.lang.annotation.*;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 
@@ -37,6 +36,7 @@ class AccessController {
                 }
             }
             method.invoke(obj);
+
     }
 }
 
